@@ -3,7 +3,7 @@
   --header-color: #2E2F42;
   --main-text-color: #434455;
   --main-text-font-size: 16px;
-  --hover-color: #404BBF;
+  --hover-and-background-color: #404BBF;
 
 }
 ul {
@@ -16,16 +16,29 @@ body {
   font-size: var(--main-text-font-size) ;
   color:var(--main-text-color);
   letter-spacing: 1.5;
+  font-weight: 400;
 
 }
 h1,h2,h3,h4,h5,h6 {
   text-transform: capitalize;
   color: var(--header-color);
 }
-
 a {
   text-decoration: none;
 }
+a:hover, a:active {
+  color: var(--hover-and-background-color)
+}
+.filter-buttons button {
+  font-family: inherit;
+  cursor: pointer;
+  background-color: #E7E9FC;
+}
+.filter-buttons button:hover {
+  background-color: var(--hover-and-background-color);
+  color: #fff;
+}
+
 
 .logo {  
   font-family: 'Raleway';
@@ -35,7 +48,10 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-button {
-  font-family: inherit;
-  b
+
+.nav-menu {
+  font-weight: 500;
+}
+.nav-contacts a {
+  color: var(--main-text-color) ;
 }
