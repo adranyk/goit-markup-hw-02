@@ -1,0 +1,41 @@
+:root {
+  /* --brand-color: #3f51b5; */
+  --header-color: #2E2F42;
+  --main-text-color: #434455;
+  --main-text-font-size: 16px;
+  --hover-color: #404BBF;
+
+}
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: var(--main-text-font-size) ;
+  color:var(--main-text-color);
+  letter-spacing: 1.5;
+
+}
+h1,h2,h3,h4,h5,h6 {
+  text-transform: capitalize;
+  color: var(--header-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {  
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+button {
+  font-family: inherit;
+  b
+}
