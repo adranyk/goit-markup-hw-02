@@ -79,3 +79,18 @@ a:hover, a:focus {
 .list {
   list-style: none;
 }
+.current{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+
+.link {
+  text-decoration:none;
+
+}
+.link:hover {
+  color:var(--hover-and-background-color);
+}
