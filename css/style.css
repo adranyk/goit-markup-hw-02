@@ -213,13 +213,14 @@ body {
 	font-family: raleway, Sans-serif;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 1.33;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
 .footer-web {
 	color: var(--button-text-color);
+  font-family: raleway, Sans-serif;
 }
 
 .footer-logo:hover,
