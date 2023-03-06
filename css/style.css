@@ -28,7 +28,7 @@ h1,h2,h3,h4,h5,h6 {
 a {
   text-decoration: none;
 }
-a:hover, a:focus {
+a:hover, a:focus, a:active {
   color: var(--hover-and-background-color)
 }
 .filter-buttons button {
@@ -90,6 +90,7 @@ a:hover, a:focus {
 
 .link {
   text-decoration:none;
+  color: var(--header-color);
 
 }
 .link:hover, link:focus {
@@ -130,11 +131,12 @@ a:hover, a:focus {
   font-size: 36px;
   line-height: 1.11;
   text-align: center
+  letter-spacing: 0.02em;
 }
 
 .footer {
   background-color: var(--header-color)
 }
-.footer-logo {
-  color: f4f4fd;
+.logo span.footer-logo {
+  color: #f4f4fd;
 }
