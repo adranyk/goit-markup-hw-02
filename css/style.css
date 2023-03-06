@@ -12,7 +12,7 @@ body {
 	background-color: var(--background-color);
 	color: var(--title-text-color);
 
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif ;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5;
@@ -22,17 +22,19 @@ body {
 /* logo */
 .logo {
 	color: var(--primary-text-color);
-	text-decoration-line: none;
+	text-decoration: none
 
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
 	font-size: 18px;
-	line-height: 1.33;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+  color: var(--button-text-color);
 }
 .logo-web {
-	color: var(--button-text-color);
+	/* color: var(--button-text-color); */
+  color: var(--primary-text-color)
 }
 .logo:hover,
 .logo:focus {
@@ -42,7 +44,7 @@ body {
 /* навігація по сайту */
 .site-nav .link {
 	color: var(--primary-text-color);
-	text-decoration-line: none;
+	text-decoration: none
 
 	font-weight: 500;
 }
@@ -80,6 +82,8 @@ body {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em
 }
 
 .hero-button {
@@ -90,11 +94,13 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-button:hover,
 .hero-button:focus {
 	background-color: var(--button-hover-color);
+
 }
 
 /* section */
