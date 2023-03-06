@@ -98,3 +98,7 @@ a:hover, a:focus {
 .address-contacts {
   font-style: normal;
 }
+
+.first-section {
+  background-color: var(--header-color)
+}
