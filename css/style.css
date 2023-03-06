@@ -119,6 +119,7 @@ body {
 
 .feature-list {
 	list-style: none;
+  list-style-type: none;
 }
 
 .feature-list .title {
@@ -127,7 +128,6 @@ body {
 
 
 .section-title {
-
 	text-transform: capitalize;
 	font-weight: 700;
 	font-size: 36px;
@@ -135,6 +135,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-align: center;
+}
+
+.four .team-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+
 }
 
 .team-title {
@@ -169,7 +178,13 @@ body {
   color: var(--title-text-color);
   font-size: 16px;
 }
-
+.four .team-text
+ {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+ }
 
 .portfolio-button {
 	background-color: var(--background-section-color);
