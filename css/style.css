@@ -100,5 +100,5 @@ a:hover, a:focus {
 }
 
 .first-section {
-  background-color: var(--header-color)
+  background-color: var(--header-color);
 }
