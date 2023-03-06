@@ -33,7 +33,7 @@ body {
   color: var(--button-text-color);
 }
 .logo-web {
-	/* color: var(--button-text-color); */
+	
   color: var(--primary-text-color)
 }
 .logo:hover,
@@ -41,7 +41,7 @@ body {
 	color: none;
 }
 
-/* навігація по сайту */
+
 .site-nav .link {
 	color: var(--primary-text-color);
 	text-decoration: none;
@@ -123,7 +123,7 @@ body {
 	color: var(--primary-text-color);
 }
 
-/* what are we doing */
+
 .section-title {
 	color: var(--primary-text-color);
 	text-transform: capitalize;
@@ -138,7 +138,7 @@ body {
 	line-height: 1.2;
 }
 
-/* our team */
+
 .team {
 	background-color: var(--background-section-color);
 }
@@ -162,7 +162,7 @@ body {
 	color: var(--title-text-color);
 }
 
-/* portfolio */
+
 .portfolio-button {
 	background-color: var(--background-section-color);
 	color: var(--button-text-color);
