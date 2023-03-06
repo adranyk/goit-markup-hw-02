@@ -70,6 +70,7 @@ a:hover, a:focus {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .logo span{
@@ -118,4 +119,8 @@ a:hover, a:focus {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+}
+
+.footer {
+  background-color: var(--header-color)
 }
