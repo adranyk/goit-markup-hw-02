@@ -178,6 +178,14 @@ body {
   color: var(--title-text-color);
   font-size: 16px;
 }
+
+.description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  font-size: 16px;
+}
+
 .four .team-text
  {
   font-size: 16px;
